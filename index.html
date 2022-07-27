@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="/dist/home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="flex justify-between px-4 py-2 md:py-0 w-full shadow-md items-center"
+    >
+      <div class="flex flex-col md:hidden">
+        <ul id="nav-icon" class="list-none ml-4 cursor-pointer">
+          <li class="w-10 h-2 bg-slate-900 my-2"></li>
+          <li class="w-10 h-2 bg-slate-900 my-2"></li>
+          <li class="w-10 h-2 bg-slate-900 my-2"></li>
+        </ul>
+        <div class="nav-mob out-hide">
+          <a class="block" href="./">
+            <div class="w-24 h-24 img-marg">
+              <img src="./../assets/logo_transparent.png" alt="logo" />
+            </div>
+          </a>
+          <ul class="list-none">
+            <li class="li-nav-mob my-6"><a href="./../about">About</a></li>
+            <li class="li-nav-mob my-6"><a href="./../program">Program</a></li>
+            <li class="li-nav-mob my-6"><a href="#">Join</a></li>
+            <li class="li-nav-mob my-6"><a href="#">Sponsor</a></li>
+            <li class="li-nav-mob my-6"><a href="#">News</a></li>
+            <li
+              class="border-4 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white p-2 w-fit"
+            >
+              CW Campaign
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-24 h-24 hidden md:flex lg:ml-20 2xl:ml-32">
+        <img src="./assets/logo_transparent.png" alt="logo" />
+      </div>
+      <ul class="ul-nav">
+        <li class="li-nav"><a href="./../about">About</a></li>
+        <li class="li-nav"><a href="./../program">Program</a></li>
+        <li class="li-nav"><a href="#">Join</a></li>
+        <li class="li-nav"><a href="#">Sponsor</a></li>
+        <li class="li-nav"><a href="#">News</a></li>
+        <li
+          class="border-4 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white p-2"
+        >
+          CW Campaign
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="sec1">
+        <h2>"Hello!, WWW"</h2>
+        <h1>Learn the best from the best, #2022 Global event;</h1>
+        <div>
+          Develop the Technical and management skills to get things done and
+          bring out the best in your team and career. Learn how to build awesome
+          web pages from scratch.
+        </div>
+        <ul>
+          <li>2022.5.5(Thu) ~ 30(Mon)</li>
+          <li>@abd3052001@gmail.com</li>
+        </ul>
+      </section>
+      <section id="sec2">
+        <div>
+          <h3>Main Program</h3>
+          <span></span>
+        </div>
+        <ul></ul>
+        <a class="transition1" href="#">Join CW & start the journey now!</a>
+      </section>
+      <section id="sec3">
+        <div>
+          <h3>Featured Speakers</h3>
+          <span></span>
+          <ul id="speakers"></ul>
+        </div>
+
+        <a class="transition1 cursor-pointer hide-me" href="#speakers">
+          <span>See More</span>
+          <span class="arrow m-3 flex transition1">
+            <span></span><span></span>
+          </span>
+        </a>
+      </section>
+      <section id="sec4">
+        <div>
+          <h3>Partners</h3>
+          <span></span>
+          <ul id="partners"></ul>
+        </div>
+      </section>
+      <footer class="flex bg-white text-gray-700 justify-center items-center gap-8 px-4">
+         <div class="w-20 md:w-32">
+          <img src="./assets/logo_transparent.png" alt="Logo">
+         </div>
+         <div>
+           <h3 class="text-base md:text-xl font-semibold">2022 Web Courses</h3>
+           <p class="text-xs md:text-base" >@All rights reserved to <a class="inline italic" href="mailto:abd3052001@gmail.com">abd3052001@gmail.com</a></p>
+         </div>
+      </footer>
+    </main>
+    <script src="./javascript/nav.js"></script>
+    <script src="./javascript/home.js"></script>
+  </body>
 </html>

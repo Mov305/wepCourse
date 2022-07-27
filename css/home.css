@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("./../assets/mobile_index_bg.png");
+  background-size: cover;
+  background-position: left;
+  overflow-x: hidden;
+
+  @apply bg-center bg-no-repeat bg-white bg-fixed;
+}
+
+#sec1 {
+  @apply py-16 px-6 md:mx-20 lg:mx-28 xl:mx-48;
+}
+
+#sec1 > h2 {
+  background: url("./../assets/code3.webp") white no-repeat;
+  background-size: cover;
+
+  @apply text-3xl md:text-4xl lg:text-5xl my-5 bg-left text-transparent bg-clip-text;
+}
+
+h1 {
+  background: url("./../assets/code3.webp") white no-repeat;
+  background-size: cover;
+
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold my-6 bg-left text-transparent bg-clip-text;
+}
+
+#sec1 > div {
+  @apply text-xl lg:text-2xl my-6 p-4 border-white border-4 bg-[#F7F7F7] text-gray-600 lg:max-w-[60%];
+}
+
+#speakers > li {
+  @apply flex md:w-[40%] flex-grow relative gap-5;
+}
+
+.arrow :nth-child(1) {
+  @apply block w-3 h-1 rotate-45 bg-black translate-x-[6px];
+}
+
+.arrow :nth-child(2) {
+  @apply block w-3 h-1 -rotate-45 bg-black;
+}
+
+.speaker-img :nth-child(1) {
+  @apply w-10 sm:w-14;
+}
+
+.speaker-img :nth-child(2) {
+  @apply w-14 sm:w-20 md:w-28 translate-x-3 -translate-y-5 sm:-translate-y-9;
+}
+
+#sec1 > ul :nth-child(1) {
+  @apply text-2xl md:text-3xl lg:text-4xl text-gray-600 font-bold my-5;
+}
+
+#sec1 > ul :nth-child(2) {
+  @apply text-lg lg:text-2xl text-gray-600 my-5;
+}
+
+#sec2 {
+  background: url("./../assets/pattern.png") #272a31;
+
+  @apply my-20 p-5;
+}
+
+.speaker-details > p {
+  @apply text-[10px] sm:text-base md:text-base xl:text-lg;
+}
+
+.speaker-details > h4 {
+  @apply font-bold text-[14px] sm:text-lg md:text-xl italic;
+}
+
+#partners > li {
+  @apply w-24 sm:w-32 lg:w-40 flex items-center grayscale-[0.9];
+}
+
+.speaker-details > span {
+  @apply text-[9px] text-orange-600 sm:text-xs md:text-base;
+}
+
+#sec2 > ul {
+  @apply flex flex-col md:flex-row flex-wrap gap-4 lg:px-20 xl:px-32;
+}
+
+#sec2 > div {
+  @apply flex flex-col items-center gap-2 my-4;
+}
+
+#sec2 > div > h3 {
+  @apply text-center md:text-lg lg:text-2xl tracking-wide text-white font-semibold;
+}
+
+#sec2 > div > span {
+  @apply w-10 h-[2px] bg-orange-500;
+}
+
+#sec2 > ul > li {
+  @apply flex md:flex-col flex-grow bg-[#ffffff26] items-center gap-2 p-2 md:max-w-[18%] border-2 border-transparent hover:border-white;
+}
+
+#sec2 > ul > li > h4 {
+  @apply text-orange-600 text-sm sm:text-base lg:text-xl mr-2 md:mx-2 font-semibold;
+}
+
+#sec2 > ul > li > p {
+  @apply text-slate-50 text-xs lg:text-base md:text-center w-[50%] ml-auto md:ml-0 md:w-auto sm:w-[70%];
+}
+
+#sec2 > ul > li > img {
+  @apply w-12 lg:w-16 py-1 pl-1 md:p-1;
+}
+
+#sec2 > a {
+  @apply block text-center font-semibold w-fit my-10 mx-auto p-4 md:text-lg md:p-8 border-2 border-transparent bg-orange-600 text-white hover:text-orange-700 hover:bg-orange-200 hover:border-orange-800;
+}
+
+.transition1 {
+  @apply transition-all ease-in-out duration-200;
+}
+
+#sec3 {
+  @apply p-5 bg-white flex flex-col justify-between min-h-[300px];
+}
+
+#sec3 > div {
+  @apply flex flex-col items-center gap-2 my-4;
+}
+
+#sec3 > div > h3 {
+  @apply text-center md:text-lg lg:text-2xl tracking-wide font-semibold;
+}
+
+#sec3 > div > span {
+  @apply w-10 h-[2px] bg-orange-500;
+}
+
+#speakers {
+  @apply flex flex-wrap flex-col md:flex-row w-full mt-16 gap-16;
+}
+
+.speaker-img {
+  @apply w-28 h-24 md:w-36;
+}
+
+#sec3 > a {
+  @apply border-2 border-gray-500 p-3 text-center flex justify-center;
+}
+
+.speakers-hide {
+  @apply opacity-0 absolute left-[1000px] md:opacity-100 md:relative md:left-0 !important;
+}
+
+.hide-me {
+  @apply md:hidden !important;
+}
+
+#sec4 {
+  @apply p-5 bg-[#424146] flex flex-col justify-between;
+}
+
+#sec4 > div {
+  @apply flex flex-col items-center gap-2 my-4;
+}
+
+#sec4 > div > h3 {
+  @apply text-center sm:text-xl md:text-2xl lg:text-4xl tracking-wider text-[#8C8C8C];
+}
+
+#sec4 > div > span {
+  @apply w-10 h-[1px] bg-orange-500;
+}
+
+#partners {
+  @apply flex flex-wrap justify-center gap-6 mt-5 sm:mt-20;
+}

@@ -1,13 +1,18 @@
 # Portfolio: setup and mobile version skeleton
 
-    This is a portfolio web page fully responsive for mobile & tablets & desktops
+    This is a Course site for wep education and events. The site is fully responsive.
 ## live version
-   -[Live_Demo](https://mov305.github.io/P1-portofolio/)    
+   -[Live_Demo](https://cw-mov305.vercel.app/)    
+
+## introduction video
+   -[loom](https://www.loom.com/share/d2005858208b46d4a77f2a320038b0aa)   
 
 ## Built With
 
     CSS
     HTML5
+    JavaScript
+    TailwindCss
 
 ## Getting Started
 
@@ -16,6 +21,7 @@ To get a local copy up and running follow these simple example steps.
 2- Navigate to the location of the folder in your machine:
 **``you@your-Pc-name:~$ cd <folder>``**
 3- after you get the project to your local machine open the index.html file or simply run the live server
+4- install the node packages via npm install
 4- to Check for linters run (npx hint .) for html code fixed and npx stylelint "**/*.{css,scss}"
 
 
@@ -39,8 +45,8 @@ Give a ⭐️ if you like this project and how we manage to build it!
 
 ## Acknowledgments
 
-Template from this [Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1) by [Microverse](https://bit.ly/MicroverseTN)
+Template from this [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by [adagio07](https://www.behance.net/adagio07)
 
 ## 📝 License
 
-This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed
+[adagio07](https://www.behance.net/adagio07)

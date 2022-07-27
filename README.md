@@ -2,7 +2,10 @@
 
     This is a Course site for wep education and events. The site is fully responsive.
 ## live version
-   -[Live_Demo](https://mov305.github.io/wepCourse/)    
+   -[Live_Demo](https://cw-mov305.vercel.app/)    
+
+## introduction video
+   -[loom](https://www.loom.com/share/9b63acc207024330b01e8f4767500970)   
 
 ## Built With
 

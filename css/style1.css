@@ -23,11 +23,11 @@ li {
 }
 
 .li-nav {
-  @apply lg:text-lg hover:text-orange-600 border-b-2 border-transparent hover:border-orange-600;
+  @apply lg:text-lg hover:text-[#EC5242] border-b-2 border-transparent hover:border-orange-600;
 }
 
 .li-nav-mob {
-  @apply hover:text-orange-600 border-b-2 text-xl font-semibold hover:border-orange-600;
+  @apply hover:text-[#EC5242] border-b-2 text-xl font-semibold hover:border-orange-600;
 }
 
 .nav-mob {

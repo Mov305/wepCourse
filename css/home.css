@@ -80,7 +80,7 @@ h1 {
 }
 
 .speaker-details > span {
-  @apply text-[9px] text-orange-600 sm:text-xs md:text-base;
+  @apply text-[9px] text-[#EC5242] sm:text-xs md:text-base;
 }
 
 #sec2 > ul {
@@ -104,7 +104,7 @@ h1 {
 }
 
 #sec2 > ul > li > h4 {
-  @apply text-orange-600 text-sm sm:text-base lg:text-xl mr-2 md:mx-2 font-semibold;
+  @apply text-[#EC5242] text-sm sm:text-base lg:text-xl mr-2 md:mx-2 font-semibold;
 }
 
 #sec2 > ul > li > p {

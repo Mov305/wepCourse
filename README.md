@@ -1,4 +1,4 @@
-# Portfolio: setup and mobile version skeleton
+# Wep Course
 
     This is a Course site for wep education and events. The site is fully responsive.
 ## live version
